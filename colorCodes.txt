@@ -1,0 +1,5 @@
+light green= 606C38
+dark green = 283618
+off white = FEFAE0
+light brown = DDA15E
+dark brown = BC6C25

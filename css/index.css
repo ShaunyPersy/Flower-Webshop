@@ -1,0 +1,51 @@
+#wrapper {
+    background-color: #FEFAE0;
+}
+
+hr {
+    margin-bottom: 4%;
+}
+
+img {
+    width: 1000px;
+}
+
+#text {
+    text-align: center;
+}
+
+#text p {
+    width: 40%;
+    margin: auto;
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+    border-left: 4px solid pink;
+}
+
+#text button {
+    margin: 2%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+    border: #BC6C25 solid 2px;
+    background-color: #DDA15E;
+}
+
+#text button:hover {
+    background-color: #BC6C25;
+}
+
+#pics {
+    text-align: center;
+}
+
+#pics img {
+    width: 300px;
+    padding: 14px;
+    border-bottom: 2px black solid;
+}
+
+#middle {
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}

@@ -1,0 +1,63 @@
+#wrapper {
+    background-color: #606C38;
+    padding-top: 5%;
+}
+
+img {
+    width: 200px;
+}
+
+#login{
+    background-color: pink;
+    width: 30%;
+    margin: auto;
+    border-radius: 2%;
+    padding-bottom: 1%;
+}
+
+#login form {
+    text-align: center;
+}
+
+#login input {
+    display: block;
+    margin: 10px auto;
+}
+
+input[type=submit]
+{
+    width: 30%;
+    height: 30px;
+    background-color: #DDA15E;
+    border-color: #BC6C25;
+}
+
+#bttns {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#register {
+    background-color: pink;
+    padding: 4%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#register a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#back {
+    margin-top: 2%;
+    background-color: #DDA15E;
+    border-color: #BC6C25;
+}
+
+input[type=submit]:hover, #back:hover {
+    background-color: #BC6C25;
+    cursor: pointer;
+}

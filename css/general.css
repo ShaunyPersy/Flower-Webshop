@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Simply';
+    src: url(../fonts/Simply/Simply.otf);
+}
+
+#wrapper {
+    min-width: 800px;
+    max-width: 1000px;
+    min-height: 700px;
+    margin: 0px auto 0px auto;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Simply;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    width: 150px;
+    float: left;
+}
+
+
+nav li ul {
+	position: absolute;
+	width:150px;
+	display: none;
+    background-color: #DDA15E;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav a {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover, .login {
+    background-color: #606C38;
+    color: white;
+}
+
+.login:hover {
+    background-color: #283618;
+}
+
+.active {
+    background-color: rgb(227, 145, 158);
+}
+
+.active:hover {
+    background-color: rgb(182, 80, 97);
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.error {
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+}

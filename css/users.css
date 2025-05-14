@@ -1,0 +1,165 @@
+#wrapper {
+    background-color: #FEFAE0;
+}
+
+nav {
+    background-color: #DDA15E;
+}
+
+nav a:hover, .login {
+    background-color: #BC6C25;
+} 
+
+.login:hover {
+    background-color: #884c18;
+}
+
+.active {
+    background-color: #606C38;
+}
+
+.active:hover {
+    background-color: #283618;
+}
+
+hr {
+    width: 50%;
+}
+
+#searchBarForm {
+    text-align: center;
+    padding: 2%;
+}
+
+#searchBarForm input {
+    width: 50%;
+    text-align: center;
+}
+
+#Field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.users, .plants {
+    width: 30%;
+    background-color:#DDA15E;
+    padding: 1%;
+    margin: 20px 30px;
+    border-radius: 2%;
+}
+
+
+.users input, .plants input {
+    display: block;
+    margin: 2%;
+}
+
+img {
+    width: 50px;
+    float: right;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#bttn {
+    width: 5%;
+    margin: 20px auto;
+}
+
+.add {
+    width: 80px;
+    height: 40px;
+    background-color: #606C38;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.add:hover {
+    cursor: pointer;
+    background-color: #283618;
+}
+
+.addForm {
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 20px 20px 0px 20px;
+    width: 35%;
+}
+
+.addForm input[type=text]
+{
+    margin-bottom: 5px;
+}
+
+.addForm label {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    margin-right: 20%;
+}
+
+.addForm .add {
+    display: block;
+    margin: 20px auto;
+}
+
+#privilege {
+    margin-bottom: 10px;
+}
+
+#privilege p {
+    float: right;
+}
+
+#privilege label {
+    width: 90px;
+    margin-right: 2px;
+}
+
+#privilege::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.back {
+    margin: 1% 0% 0% 32%;
+}
+
+#user {
+    margin-top: 15px;
+}
+
+#dropDown, .hide, #confirm, #newUser, #newCategory {
+    display: none;
+}
+
+#confirm {
+    background-color:#BC6C25;
+    width: 20%;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+}
+
+#confirm input[type="submit"]{
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.flowerPic{
+    float: left;
+    margin-left: 20%;
+    width: 50%;
+    max-height: 100px;
+}
+
+form .hideSave{
+    display: none;
+}

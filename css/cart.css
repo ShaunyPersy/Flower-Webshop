@@ -1,0 +1,67 @@
+#wrapper{
+    background-color: #FEFAE0;
+}
+
+#cart {
+    width: 50%;
+    margin: 5% auto;
+    border: 2px solid black;
+    padding: 4%;
+}
+
+table {
+    margin: 5% auto;
+}
+
+th, td {
+    width: 100px;
+    text-align: center;
+}
+
+th {
+    padding-bottom: 3%;
+    font-weight: bold;
+}
+
+td {
+    padding: 2%;
+}
+
+.endTotal td{
+    border-top: 1px solid black;
+}
+
+#emptyCart {
+    float: left;
+    background-color: pink;
+}
+
+#submitOrder {
+    float: right;
+    margin-bottom: 2%;
+    background-color: #606C38;
+    color: white;
+}
+
+#order::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#order {
+    display: none;
+}
+
+#order input[type="submit"]{
+    background-color: pink;
+}
+
+#error1 {
+    margin-top: 2%;
+}
+
+#paid{
+    text-align: center;
+    margin-top: 2%;
+}

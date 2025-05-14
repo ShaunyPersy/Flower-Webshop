@@ -1,0 +1,80 @@
+#wrapper {
+    background-color: #606C38;
+}
+
+nav {
+    background-color: #FEFAE0;
+}
+
+#field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#header{
+    margin-left: 24%;
+}
+
+#searchBarForm {
+    padding: 2%;
+}
+
+#searchBarForm input {
+    width: 50%;
+    text-align: center;
+}
+
+.newCard {
+    width: 20%;
+    border: 4px solid #BC6C25;
+    background-color: #DDA15E;
+    text-align: center;
+    padding: 1%;
+    margin: 20px 10px;
+}
+
+.newCard a img {
+    width: 150px;
+    padding: 10%;
+    max-height: 150px;
+}
+
+.newCard:hover {
+    transform: scale(1.05);
+    background-color: #BC6C25;
+}
+
+#filterBttn{
+    background-color: pink;
+    width: 6%;
+    float: left;
+    margin-right: 1%;
+    padding: 1%;
+}
+
+#filterBttn:hover{
+    cursor: pointer;
+}
+
+#filter {
+    display: none;
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    width: 15%;
+    background-color: pink;
+    padding: 2%;
+}
+
+#filter h2 {
+    margin-bottom: 5%;
+}
+
+#filter p {
+    margin: 2% 0 0 5%;
+}
+
+#filter input[type="number"]{
+    width: 50px;
+}

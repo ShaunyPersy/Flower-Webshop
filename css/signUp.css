@@ -1,0 +1,58 @@
+#wrapper {
+    background-color: #606C38;
+    padding-top: 5%;
+}
+
+#signUp {
+    background-color: pink;
+    width: 35%;
+    margin: auto;
+    border-radius: 2%;
+    padding-bottom: 1%;
+}
+
+#signUp form {
+    padding-top: 5%;
+}
+
+#bttn{
+    margin: auto;
+    width: 35%;
+}
+
+#back {
+    margin-top: 2%;
+    background-color: #DDA15E;
+    border-color: #BC6C25;
+    float: left;
+}
+
+#back:hover {
+    background-color: #BC6C25;
+}
+
+#signUp label {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    margin-right: 5%;
+}
+
+#signUp p {
+    margin: 5px;
+}
+
+#user {
+    margin-top: 30px;
+}
+
+#signUp input[type=submit] {
+    margin: 10px 35%;
+    background-color: #606C38;
+    color: white;
+    padding: 2%;
+}
+
+#signUp input[type=submit]:hover{
+    background-color: #283618;
+}

@@ -22,7 +22,7 @@ This is a **flower webshop** built with **HTML**, **JavaScript**, **CSS**, **PHP
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/flower-webshop.git
+    git clone https://github.com/ShaunyPersy/flower-webshop.git
     ```
 
 2. Set up **XAMPP** and start the Apache and MySQL services.
